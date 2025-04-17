@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png"/>
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav_option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav_option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                   <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="option">
+                    <div class="liboption nav_option">
+                        <img src="./assets/library_icon.png" >
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div id="libbox">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">it's easy,we will help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's finds some podcasts to follow</p>
+                        <p class="box-p2">we'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's finds some podcasts to follow</p>
+                        <p class="box-p2">we'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                   
+                </div>
+               
+            </div>
+        </div>
+        <div class="main_content">
+            <div class="stickynav">
+                <div class="stickynav-icon">
+                    <img src="./assets/backward_icon.png">
+                    <img src="./assets/forward_icon.png" class="hide">
+                </div>
+                <div class="stickynav-option">
+                    <button class="navbadge1 hide">Explore Premium</button>
+                    <button class="navbadge2"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user "></i>
+
+                </div>
+            </div>
+            <div class="cards">
+                <h2>Recently played</h2>
+                <div class="cardcontainer">
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg">
+                        <p class="tittle">Top 50 - Global</p>
+                        <p class="info">Your daily updates of most played.....</p>
+                    </div>
+                </div>
+                <h2>Trending now near you</h2>
+                <div class="cardcontainer">
+                    <div class="card">
+                        <img src="./assets/card2img.jpeg">
+                        <p class="tittle">Top 50 - Global</p>
+                        <p class="info">Your daily updates of most played.....</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card3img.jpeg">
+                        <p class="tittle">Top 50 - Global</p>
+                        <p class="info">Your daily updates of most played.....</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card4img.jpeg">
+                        <p class="tittle">Top 50 - Global</p>
+                        <p class="info">Your daily updates of most played.....</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card3img.jpeg">
+                        <p class="tittle">Top 50 - Global</p>
+                        <p class="info">Your daily updates of most played.....</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card2img.jpeg">
+                        <p class="tittle">Top 50 - Global</p>
+                        <p class="info">Your daily updates of most played.....</p>
+                    </div>
+                </div>
+                <h2>Featured charts</h2>
+                <div class="cardcontainer">
+                    <div class="card">
+                        <img src="./assets/card5img.jpeg">
+                        <p class="tittle">Top songs - Global</p>
+                        <p class="info">Your daily updates of most played.....</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card6img.jpeg">
+                        <p class="tittle">Top songs-India</p>
+                        <p class="info">Your daily updates of most played.....</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg">
+                        <p class="tittle">Top 50 - Global</p>
+                        <p class="info">Your daily updates of most played.....</p>
+                    </div>
+                </div>
+            </div>
+           <div class="footer">
+            <div class="line">
+
+            </div>
+           </div>
+        </div>
+        <div class="playsong">
+            <div class="album">
+                <div class="album1">
+                    <img src="./assets/card2img.jpeg" >
+                    <p>Daylight
+                        <br>
+                      <span class="name">David kushner</span>  
+                    </p>
+                    <br>
+                   <div class="ai">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-tv" ></i>
+                </div>
+                  
+                </div>
+            </div>
+            <div class="player">
+                <div class="playbar">
+                    <img src="./assets/player_icon1.png" class="playicon">
+                    <img src="./assets/player_icon2.png" class="playicon">
+                    <img src="./assets/player_icon3.png" class="playicon" style="opacity: 1;height: 2rem;">
+                    <img src="./assets/player_icon4.png" class="playicon">
+                    <img src="./assets/player_icon5.png" class="playicon">
+                </div>
+                <div class="progressbar">
+                    <span class="incount">0:00</span>
+                    <input type="range" class="progressing">
+                    <span class="totcount">3:33</span>
+
+                </div>
+            </div>
+            <div class="control">
+              
+                <i class="fa-regular fa-circle-play"></i>
+                <i class="fa-solid fa-microphone"></i>
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-server"></i>
+               <div class="sound">
+                    <i class="fa-solid fa-volume-high" style="margin-right: 0.2rem;""></i>
+                    <input type="range" class="volume">
+                </div> 
+           
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
